@@ -1,9 +1,9 @@
 CFLAGS=-Wall -g
 
 clean:
-	rm -f ex1 ex3 ex7 ex8
+	rm -f ex1 ex3 ex7 ex8 ex10
 
-all: clean ex1 ex3 ex7 ex8
+all: clean ex1 ex3 ex7 ex8 ex10
 	
 ex1:
 	cc -Wall -g ex1.c -o ex1
@@ -16,3 +16,6 @@ ex7:
 	
 ex8:
 	cc -Wall -g ex8.c -o ex8
+	
+ex10:
+	cc -Wall -g ex10.c -o ex10
